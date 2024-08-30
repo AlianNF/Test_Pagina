@@ -44,12 +44,12 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
-        <button type="submit" class="btn btn-primary" onclick="ButtonAlert(exampleInputEmail1,exampleInputPassword1)">Submit</button>
+        <button type="submit" class="btn btn-primary" onclick="ButtonAlert()">Submit</button>
     </form>
 </body>
 <script>
-    function ButtonAlert(a,b){
-        alert(a,b);
+    function ButtonAlert(){
+        alert(exampleInputPassword1.value);
     }
 </script>
 </html>
